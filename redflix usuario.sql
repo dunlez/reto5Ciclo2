@@ -1,0 +1,11 @@
+CREATE SCHEMA redflix184;
+USE redflix184;
+CREATE TABLE IF NOT EXISTS usuarios (
+alias_usuario VARCHAR(40) NOT NULL PRIMARY KEY,
+nombre VARCHAR(40) NOT NULL,
+apellido VARCHAR(40) NOT NULL, 
+email VARCHAR(40) NOT NULL, 
+celular VARCHAR(40) NOT NULL,
+contraseña VARCHAR(40) NOT NULL,
+fecha_nacimiento DATETIME NOT NULL
+);
