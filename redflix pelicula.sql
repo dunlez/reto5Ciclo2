@@ -1,0 +1,7 @@
+USE redflix184;
+CREATE TABLE IF NOT EXISTS pelicula (
+id_pelicula INT NOT NULL PRIMARY KEY,
+titulo VARCHAR(40) NOT NULL,
+resumen VARCHAR(300) NOT NULL,
+anio DATE NOT NULL
+);
